@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 620px) {
+
+    body{
+        background-color: #25b4e4;
+    }
+
+    #imgJogos{
+        width: 100%;
+        height: 7vw;
+    }
+
+    #imgJogos img{
+        width: 100%;
+        height: 30vw;
+    }
+
+    #curso{
+        margin-top: 30vw;
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+        float: left;
+        font-size: 3vw;
+    }
+    
+    #acesso{
+        color: white;
+        position: relative;
+        margin-top: 5%;
+        font-family: Arial, sans-serif;
+        float: left;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    form{
+        float: left;
+        margin-top: 5%;
+        margin-left: 25%;
+        font-size: 5vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+
+    #botao{
+        margin-top: 10%;
+        margin-left: 25%;
+        display: inline-block;
+        text-align: center;
+        border-width: 1px;
+        border-style: solid;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height: 1.1;
+        font-weight: normal;
+        font-family: sans-serif;
+        color: #FFFFFF;
+        font-size: 5vw;
+        background-color: #25b4e4;
+        background-image: -webkit-linear-gradient(top, #2ab6e5 0%, #5eb6d4 48%, #25b4e4 49%, #25b4e4 82%, #3ebde7 100%);
+        background-image: -moz-linear-gradient(top, #2ab6e5 0%, #5eb6d4 48%, #25b4e4 49%, #25b4e4 82%, #3ebde7 100%);
+        background-image: -o-linear-gradient(top, #2ab6e5 0%, #5eb6d4 48%, #25b4e4 49%, #25b4e4 82%, #3ebde7 100%);
+        background-image: linear-gradient(top, #2ab6e5 0%, #5eb6d4 48%, #25b4e4 49%, #25b4e4 82%, #3ebde7 100%);
+        border-color: hsl(195, 22%, 50%);
+        -webkit-box-shadow: inset 0 0 1px 1px #57c5ea, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset 0 0 1px 1px #57c5ea, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 0 1px 1px #57c5ea, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        -webkit-text-shadow: 1px 1px 1px #127191;
+        -moz-text-shadow: 1px 1px 1px #127191;
+        -o-text-shadow: 1px 1px 1px #127191;
+        text-shadow: 1px 1px 1px #127191;
+        -webkit-border-radius: 31px;
+        -moz-border-radius: 31px;
+        border-radius: 31px;
+        padding: 2vw 2vw 2vw 2vw;
+      }
+      
+      #botao strong {
+        letter-spacing: 1px;
+        font-size: 22px;
+      }
+
+    #email{
+        size: 125vw;
+        height: 5vw;
+        width: 40vw;
+    }
+
+}
+
+@media only screen and (min-width: 621px) {
+
+    body{
+        background-color: #25b4e4;
+    }
+    
+    #imgJogos{
+        width: 100%;
+        height: 10vw;
+        z-index: 1;
+    }
+    
+    #imgJogos img{
+        width: 100%;
+        height: 25vw;
+    }
+    
+    #curso{
+        margin-top: 20%;
+        font-family: Arial, sans-serif;
+        z-index: 2;
+        color: white;
+        left: 25%;
+        float: left;
+        font-size: 1.3vw;
+        margin-left: 25%;
+    }
+    
+    form{
+        float: left;
+        margin-top: 2%;
+        margin-left: 38%;
+        font-size: 2vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+    
+    #botao{
+        margin-top: 10%;
+        margin-left: 35%;
+        display: inline-block;
+        text-align: center;
+        border-width: 1px;
+        border-style: solid;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height: 1.1;
+        font-weight: normal;
+        font-family: sans-serif;
+        color: #FFFFFF;
+        font-size: 1vw;
+        background-color: #25b4e4;
+        background-image: -webkit-linear-gradient(top, #2ab6e5 0%, #5eb6d4 48%, #25b4e4 49%, #25b4e4 82%, #3ebde7 100%);
+        background-image: -moz-linear-gradient(top, #2ab6e5 0%, #5eb6d4 48%, #25b4e4 49%, #25b4e4 82%, #3ebde7 100%);
+        background-image: -o-linear-gradient(top, #2ab6e5 0%, #5eb6d4 48%, #25b4e4 49%, #25b4e4 82%, #3ebde7 100%);
+        background-image: linear-gradient(top, #2ab6e5 0%, #5eb6d4 48%, #25b4e4 49%, #25b4e4 82%, #3ebde7 100%);
+        border-color: hsl(195, 22%, 50%);
+        -webkit-box-shadow: inset 0 0 1px 1px #57c5ea, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset 0 0 1px 1px #57c5ea, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 0 1px 1px #57c5ea, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        -webkit-text-shadow: 1px 1px 1px #127191;
+        -moz-text-shadow: 1px 1px 1px #127191;
+        -o-text-shadow: 1px 1px 1px #127191;
+        text-shadow: 1px 1px 1px #127191;
+        -webkit-border-radius: 31px;
+        -moz-border-radius: 31px;
+        border-radius: 31px;
+        padding: 1vw 1vw 1vw 1vw;
+      }
+      
+      #botao strong {
+        letter-spacing: 1px;
+        font-size: 22px;
+      }
+      
+      #botao:hover {
+        color: #FFFFFF;
+        background-color: #33b9e6;
+        background-image: -webkit-linear-gradient(top, #38bbe7 0%, #6abcd8 48%, #33b9e6 49%, #33b9e6 82%, #4cc2e9 100%);
+        background-image: -moz-linear-gradient(top, #38bbe7 0%, #6abcd8 48%, #33b9e6 49%, #33b9e6 82%, #4cc2e9 100%);
+        background-image: -o-linear-gradient(top, #38bbe7 0%, #6abcd8 48%, #33b9e6 49%, #33b9e6 82%, #4cc2e9 100%);
+        background-image: linear-gradient(top, #38bbe7 0%, #6abcd8 48%, #33b9e6 49%, #33b9e6 82%, #4cc2e9 100%);
+        border-color: hsl(195, 21%, 51%);
+        -webkit-box-shadow: inset 0 0 1px 1px #69cced, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset 0 0 1px 1px #69cced, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 0 1px 1px #69cced, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+        -webkit-text-shadow: 1px 1px 1px #147c9f;
+        -moz-text-shadow: 1px 1px 1px #147c9f;
+        -o-text-shadow: 1px 1px 1px #147c9f;
+        text-shadow: 1px 1px 1px #147c9f;
+      }
+    
+    #acesso{
+        color: white;
+        position: relative;
+        margin-top: 2%;
+        font-family: Arial, sans-serif;
+        float: left;
+        font-size: 2vw;
+        margin-left: 20%;
+    
+    }
+
+    #email{
+        height: 1.5vw;
+        width: 15vw;
+    }
+
+    #enviado{
+        text-align: center;
+        font-size: 2vw;
+        margin-top: 15%;
+        font-family: Arial, sans-serif;
+    }
+    
+}
